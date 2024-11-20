@@ -26,14 +26,15 @@
 **Set Up the Node.js Application Install Node.js and NPM ```sudo yum install -y nodejs npm```**
 **Create a New Directory for Your Project ```mkdir /mnt/efs/chat-app```. ```cd /mnt/efs/chat-app```**
 
-**Initialize a New Node.js Project ```npm init -y```** ![](images/chat-9-cmd.png) **we dident initialize the node.js. we do sum trouble shoot. we gave some comands**```sudo chmod -R 775 /mnt/efs/chat-app```
-```sudo chown -R ec2-user:ec2-user /mnt/efs/chat-app```
-```sudo chown -R ec2-user:ec2-user ~/.npm```
-```npm install --unsafe-perm=true```
-```sudo npm install```
-```npm cache clean --force```
-```sudo yum remove nodejs```
-```sudo yum install -y nodejs```
+**Initialize a New Node.js Project ```npm init -y```** ![](images/chat-9-cmd.png) **we dident initialize the node.js. we do sum trouble shoot. we gave some comands**
+**```sudo chmod -R 775 /mnt/efs/chat-app
+sudo chown -R ec2-user:ec2-user /mnt/efs/chat-app
+sudo chown -R ec2-user:ec2-user ~/.npm
+npm install --unsafe-perm=true
+sudo npm install
+npm cache clean --force
+sudo yum remove nodejs
+sudo yum install -y nodejs```**
 ![](images/Screenshot%20(36).png) **now we are insitialize node.js**
 
 **Install Required Packages ```npm install express ws body-parser```**
