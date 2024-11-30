@@ -13,8 +13,10 @@ aws ec2 create-subnet
 --tag-specifications ResourceType=subnet,Tags=[{Key=Name,Value=private-subnet}]
 
 step3:create Internet Gateway
-aws ec2 create-internet-gateway --tag-specifications ResourceType=internet-gateway,Tags=[{Key=Name,Value=my-igw}]
 
+```
+aws ec2 create-internet-gateway --tag-specifications ResourceType=internet-gateway,Tags=[{Key=Name,Value=my-igw}]
+```
 step4:Attach Internet Gateway to VPC
 
 aws ec2 attach-internet-gateway --internet-gateway-id igw-0b551b91420950dca --vpc-id vpc-01274c987539e3042
