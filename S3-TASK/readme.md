@@ -102,3 +102,12 @@ o	Make sure versioning is enabled on both buckets and create IAM policies that p
 o	Test the replication by uploading files to the primary bucket and verifying their presence in the secondary bucket.
 
 
+![](images/s31.26.png)
+![](images/s31.27.png)
+![](images/s31.28.png)
+![](images/s31.29.png)
+![](images/s31.30.png)
+![](images/s31.31.png)
+![](images/s31.32.png)
+![](images/s31.33.png)
+![](images/s31.34.png)
