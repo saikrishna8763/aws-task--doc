@@ -6,7 +6,7 @@
 
 **Access the AWS Management Console Log in to your AWS Management Console Navigate to the Amazon EFS service by searching for "EFS" in the search bar.**
 
-**Navigate to the Amazon EFS service by searching for "EFS" in the search bar.and create an EFS system.** ![](images/chat-1.png).
+**Navigate to the Amazon EFS service by searching for "EFS" in the search bar.and create an EFS system.**![](images/chat-1.png).
 
 **now we have to launch an insteance. Before launching we hance to create a security group gave port "2049" next launch ssh,port 3000** **![](images/chat-4-secu.png) ![](images/chat-3.png) ![](images/chat-4.png)**
 
